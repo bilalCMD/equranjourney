@@ -870,3 +870,26 @@ svg:not([width]):not(.wave){width:1.2em;height:1.2em;flex:none}
 
 /* ensure header stays sticky on every screen (clip-safe) */
 .header{position:-webkit-sticky;position:sticky;top:0}
+
+/* =============================================================
+   FIX LAYER 7 — real sticky header + clean mobile footer
+   ============================================================= */
+
+/* The header is injected inside <div id="site-header">. That wrapper was
+   bounding the sticky positioning, so the header scrolled away.
+   display:contents removes the wrapper box → header sticks to the viewport. */
+#site-header{display:contents}
+.header{position:-webkit-sticky;position:sticky;top:0;z-index:1000}
+
+/* ---- Mobile footer: simple, left-aligned, only essentials ---- */
+@media(max-width:760px){
+  .footer{padding-top:36px}
+  .f-top{grid-template-columns:1fr;gap:0;padding-bottom:24px}
+  .f-top .f-col{display:none}            /* hide Our Courses, Quick Links, Newsletter */
+  .f-brand{grid-column:auto;text-align:left}
+  .f-brand img{margin-bottom:14px}
+  .f-brand p{margin:0 0 18px;max-width:none}
+  .f-brand .f-soc{justify-content:flex-start}
+  .f-bottom{flex-direction:column;align-items:flex-start;text-align:left;gap:10px;padding:18px 0}
+  .f-bottom span{justify-content:flex-start!important}
+}
