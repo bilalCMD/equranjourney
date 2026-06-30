@@ -919,3 +919,36 @@ svg:not([width]):not(.wave){width:1.2em;height:1.2em;flex:none}
   .wa-float .wa-txt{font-size:.86rem}
   .wa-float .wa-txt small{font-size:.66rem}
 }
+
+/* =============================================================
+   FIX LAYER 9 — mobile announcement bar (sticky w/ header) + contact page
+   ============================================================= */
+
+/* announcement marquee: hidden on desktop, shown on mobile */
+.t-announce{display:none}
+.t-marq{display:flex;width:max-content}
+.t-marq span{white-space:nowrap}
+
+/* contact page two-column → premium responsive */
+.contact-grid{display:grid;grid-template-columns:1fr 1.2fr;gap:40px;align-items:start}
+@media(max-width:900px){
+  .contact-grid{grid-template-columns:1fr;gap:24px}
+  .contact-grid .form-card{order:-1}     /* FORM first on mobile, details below */
+}
+
+@media(max-width:760px){
+  /* thin topbar showing the scrolling announcement */
+  .topbar{font-size:.8rem}
+  .topbar .container{flex-direction:row;justify-content:center;gap:0;padding:6px 14px;overflow:hidden;text-align:left}
+  .topbar .t-info,.topbar .t-soc{display:none}
+  .t-announce{display:block;width:100%;overflow:hidden;-webkit-mask-image:linear-gradient(90deg,transparent,#000 6%,#000 94%,transparent)}
+  .t-marq{animation:marquee 22s linear infinite}
+  .t-marq span{font-size:.74rem;font-weight:600;color:#e3f1fb}
+
+  /* announcement + header stick together (wrapper becomes the sticky box) */
+  #site-header{display:block;position:-webkit-sticky;position:sticky;top:0;z-index:1000}
+  #site-header .header{position:static;box-shadow:0 6px 20px rgba(10,37,64,.08)}
+
+  /* contact page premium spacing */
+  .contact-grid .form-card{padding:24px 20px}
+}
