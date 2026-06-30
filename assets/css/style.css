@@ -37,7 +37,7 @@
 html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
 body{
   font-family:'Plus Jakarta Sans',system-ui,-apple-system,Segoe UI,Roboto,sans-serif;
-  color:var(--ink);background:var(--bg);line-height:1.65;overflow-x:hidden;
+  color:var(--ink);background:var(--bg);line-height:1.65;overflow-x:clip;
   -webkit-font-smoothing:antialiased;
 }
 img{max-width:100%;display:block}
@@ -606,7 +606,7 @@ html,body{max-width:100%}
 }
 
 /* hard overflow guard */
-html{overflow-x:hidden}
+html{overflow-x:clip}
 .hero,.hero-copy{max-width:100%}
 .hero .container,.split,.section .container,.hero-copy{min-width:0}
 @media(max-width:760px){
@@ -867,3 +867,6 @@ svg:not([width]):not(.wave){width:1.2em;height:1.2em;flex:none}
 /* whole course card is clickable */
 .course{cursor:pointer}
 .course:focus-within{box-shadow:0 28px 60px rgba(14,124,155,.22)}
+
+/* ensure header stays sticky on every screen (clip-safe) */
+.header{position:-webkit-sticky;position:sticky;top:0}

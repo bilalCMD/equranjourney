@@ -37,46 +37,46 @@
 <a href=\"https://www.instagram.com/equranjourney/\" target=\"_blank\" rel=\"noopener\" aria-label=\"Instagram\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"currentColor\"><path d=\"M12 2.16c3.2 0 3.58.01 4.85.07 3.25.15 4.77 1.69 4.92 4.92.06 1.27.07 1.65.07 4.85s-.01 3.58-.07 4.85c-.15 3.23-1.66 4.77-4.92 4.92-1.27.06-1.65.07-4.85.07s-3.58-.01-4.85-.07c-3.26-.15-4.77-1.7-4.92-4.92-.06-1.27-.07-1.65-.07-4.85s.01-3.58.07-4.85C2.38 3.92 3.9 2.38 7.15 2.23 8.42 2.17 8.8 2.16 12 2.16zM12 0C8.74 0 8.33.01 7.05.07 2.7.27.27 2.69.07 7.05.01 8.33 0 8.74 0 12s.01 3.67.07 4.95c.2 4.36 2.62 6.78 6.98 6.98C8.33 23.99 8.74 24 12 24s3.67-.01 4.95-.07c4.35-.2 6.78-2.62 6.98-6.98.06-1.28.07-1.69.07-4.95s-.01-3.67-.07-4.95c-.2-4.35-2.62-6.78-6.98-6.98C15.67.01 15.26 0 12 0zm0 5.84a6.16 6.16 0 1 0 0 12.32 6.16 6.16 0 0 0 0-12.32zM12 16a4 4 0 1 1 0-8 4 4 0 0 1 0 8zm6.41-10.85a1.44 1.44 0 1 0 0 2.88 1.44 1.44 0 0 0 0-2.88z\"/></svg></a>\
 </div></div></div>\
 <header class=\"header\"><nav class=\"nav\">\
-<a href=\"index.html\" class=\"brand\"><img src=\"assets/images/equranj.png\" alt=\"eQuran Journey Logo\"></a>\
+<a href=\"/\" class=\"brand\"><img src=\"assets/images/equranj.png\" alt=\"eQuran Journey Logo\"></a>\
 <ul class=\"menu\">\
-<li><a href=\"index.html\">Home</a></li>\
-<li><a href=\"courses.html\">Courses <svg class=\"caret\" width=\"13\" height=\"13\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"m6 9 6 6 6-6\"/></svg></a>\
+<li><a href=\"/\">Home</a></li>\
+<li><a href=\"courses\">Courses <svg class=\"caret\" width=\"13\" height=\"13\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"m6 9 6 6 6-6\"/></svg></a>\
 <div class=\"dropdown\">\
-<a href=\"noorani-qaida.html\"><span class=\"di\"><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M4 19.5A2.5 2.5 0 0 1 6.5 17H20\"/><path d=\"M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z\"/></svg></span>Noorani Qaida</a>\
-<a href=\"quran-recitation.html\"><span class=\"di\"><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><rect x=\"9\" y=\"2\" width=\"6\" height=\"12\" rx=\"3\"/><path d=\"M19 10a7 7 0 0 1-14 0M12 19v3\"/></svg></span>Quran Recitation (Nazra)</a>\
-<a href=\"quran-translation.html\"><span class=\"di\"><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"m5 8 6 6M4 14l6-6 2-3M2 5h12M7 2h1M22 22l-5-10-5 10M14 18h6\"/></svg></span>Quran Translation &amp; Tafseer</a>\
-<a href=\"quran-memorization.html\"><span class=\"di\"><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M12 5a3 3 0 1 0-5.997.142 4 4 0 0 0-2.526 5.77 4 4 0 0 0 .556 6.588A4 4 0 1 0 12 18z\"/><path d=\"M12 5a3 3 0 1 1 5.997.142 4 4 0 0 1 2.526 5.77 4 4 0 0 1-.556 6.588A4 4 0 1 1 12 18z\"/></svg></span>Quran Memorization (Hifz)</a>\
-<a href=\"advance-tajweed.html\"><span class=\"di\"><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z\"/></svg></span>Advanced Tajweed</a>\
-<a href=\"courses.html\" style=\"font-weight:800;color:var(--teal)\"><span class=\"di\"><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M5 12h14M13 6l6 6-6 6\"/></svg></span>View All Courses</a>\
+<a href=\"noorani-qaida\"><span class=\"di\"><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M4 19.5A2.5 2.5 0 0 1 6.5 17H20\"/><path d=\"M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z\"/></svg></span>Noorani Qaida</a>\
+<a href=\"quran-recitation\"><span class=\"di\"><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><rect x=\"9\" y=\"2\" width=\"6\" height=\"12\" rx=\"3\"/><path d=\"M19 10a7 7 0 0 1-14 0M12 19v3\"/></svg></span>Quran Recitation (Nazra)</a>\
+<a href=\"quran-translation\"><span class=\"di\"><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"m5 8 6 6M4 14l6-6 2-3M2 5h12M7 2h1M22 22l-5-10-5 10M14 18h6\"/></svg></span>Quran Translation &amp; Tafseer</a>\
+<a href=\"quran-memorization\"><span class=\"di\"><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M12 5a3 3 0 1 0-5.997.142 4 4 0 0 0-2.526 5.77 4 4 0 0 0 .556 6.588A4 4 0 1 0 12 18z\"/><path d=\"M12 5a3 3 0 1 1 5.997.142 4 4 0 0 1 2.526 5.77 4 4 0 0 1-.556 6.588A4 4 0 1 1 12 18z\"/></svg></span>Quran Memorization (Hifz)</a>\
+<a href=\"advance-tajweed\"><span class=\"di\"><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z\"/></svg></span>Advanced Tajweed</a>\
+<a href=\"courses\" style=\"font-weight:800;color:var(--teal)\"><span class=\"di\"><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M5 12h14M13 6l6 6-6 6\"/></svg></span>View All Courses</a>\
 </div></li>\
-<li><a href=\"fee.html\">Fee</a></li>\
-<li><a href=\"free-books.html\">Free Books</a></li>\
-<li><a href=\"about.html\">About</a></li>\
-<li><a href=\"blog.html\">Blog</a></li>\
-<li><a href=\"contact.html\">Contact</a></li>\
+<li><a href=\"fee\">Fee</a></li>\
+<li><a href=\"free-books\">Free Books</a></li>\
+<li><a href=\"about\">About</a></li>\
+<li><a href=\"blog\">Blog</a></li>\
+<li><a href=\"contact\">Contact</a></li>\
 </ul>\
-<div class=\"nav-cta\"><a href=\"contact.html\" class=\"btn\">Free Trial <svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M5 12h14M13 6l6 6-6 6\"/></svg></a></div>\
+<div class=\"nav-cta\"><a href=\"contact\" class=\"btn\">Free Trial <svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M5 12h14M13 6l6 6-6 6\"/></svg></a></div>\
 <button class=\"burger\" aria-label=\"Menu\"><span></span><span></span><span></span></button>\
 </nav></header>\
 <div class=\"overlay\"></div>\
 <aside class=\"mobile-nav\">\
 <div class=\"m-head\"><img src=\"assets/images/equranj.png\" alt=\"eQuran Journey\" style=\"height:42px\"><button class=\"m-close\" aria-label=\"Close\">&times;</button></div>\
-<a href=\"index.html\" class=\"m-link\">Home</a>\
+<a href=\"/\" class=\"m-link\">Home</a>\
 <div class=\"has-sub\"><a href=\"#\" class=\"m-link\">Courses</a><div class=\"m-sub\" style=\"display:none\">\
-<a href=\"courses.html\" class=\"m-link\">All Courses</a>\
-<a href=\"noorani-qaida.html\" class=\"m-link\">Noorani Qaida</a>\
-<a href=\"quran-recitation.html\" class=\"m-link\">Quran Recitation</a>\
-<a href=\"quran-translation.html\" class=\"m-link\">Quran Translation</a>\
-<a href=\"quran-memorization.html\" class=\"m-link\">Quran Memorization</a>\
-<a href=\"advance-tajweed.html\" class=\"m-link\">Advanced Tajweed</a>\
+<a href=\"courses\" class=\"m-link\">All Courses</a>\
+<a href=\"noorani-qaida\" class=\"m-link\">Noorani Qaida</a>\
+<a href=\"quran-recitation\" class=\"m-link\">Quran Recitation</a>\
+<a href=\"quran-translation\" class=\"m-link\">Quran Translation</a>\
+<a href=\"quran-memorization\" class=\"m-link\">Quran Memorization</a>\
+<a href=\"advance-tajweed\" class=\"m-link\">Advanced Tajweed</a>\
 </div></div>\
-<a href=\"fee.html\" class=\"m-link\">Fee</a>\
-<a href=\"free-books.html\" class=\"m-link\">Free Books</a>\
-<a href=\"about.html\" class=\"m-link\">About</a>\
-<a href=\"blog.html\" class=\"m-link\">Blog</a>\
-<a href=\"faqs.html\" class=\"m-link\">FAQs</a>\
-<a href=\"contact.html\" class=\"m-link\">Contact</a>\
-<a href=\"contact.html\" class=\"btn\" style=\"width:100%;justify-content:center;margin-top:18px\">Start Free Trial</a>\
+<a href=\"fee\" class=\"m-link\">Fee</a>\
+<a href=\"free-books\" class=\"m-link\">Free Books</a>\
+<a href=\"about\" class=\"m-link\">About</a>\
+<a href=\"blog\" class=\"m-link\">Blog</a>\
+<a href=\"faqs\" class=\"m-link\">FAQs</a>\
+<a href=\"contact\" class=\"m-link\">Contact</a>\
+<a href=\"contact\" class=\"btn\" style=\"width:100%;justify-content:center;margin-top:18px\">Start Free Trial</a>\
 </aside>";
 
   window.EQJ_FOOTER = "\
@@ -93,19 +93,19 @@
 <a href=\"https://www.instagram.com/equranjourney/\" target=\"_blank\" rel=\"noopener\" aria-label=\"Instagram\"><svg width=\"17\" height=\"17\" viewBox=\"0 0 24 24\" fill=\"currentColor\"><path d=\"M12 2.16c3.2 0 3.58.01 4.85.07 3.25.15 4.77 1.69 4.92 4.92.06 1.27.07 1.65.07 4.85s-.01 3.58-.07 4.85c-.15 3.23-1.66 4.77-4.92 4.92-1.27.06-1.65.07-4.85.07s-3.58-.01-4.85-.07c-3.26-.15-4.77-1.7-4.92-4.92-.06-1.27-.07-1.65-.07-4.85s.01-3.58.07-4.85C2.38 3.92 3.9 2.38 7.15 2.23 8.42 2.17 8.8 2.16 12 2.16zM12 0C8.74 0 8.33.01 7.05.07 2.7.27.27 2.69.07 7.05.01 8.33 0 8.74 0 12s.01 3.67.07 4.95c.2 4.36 2.62 6.78 6.98 6.98C8.33 23.99 8.74 24 12 24s3.67-.01 4.95-.07c4.35-.2 6.78-2.62 6.98-6.98.06-1.28.07-1.69.07-4.95s-.01-3.67-.07-4.95c-.2-4.35-2.62-6.78-6.98-6.98C15.67.01 15.26 0 12 0zm0 5.84a6.16 6.16 0 1 0 0 12.32 6.16 6.16 0 0 0 0-12.32zM12 16a4 4 0 1 1 0-8 4 4 0 0 1 0 8zm6.41-10.85a1.44 1.44 0 1 0 0 2.88 1.44 1.44 0 0 0 0-2.88z\"/></svg></a>\
 </div></div>\
 <div class=\"f-col\"><h4>Our Courses</h4><ul>\
-<li><a href=\"noorani-qaida.html\">Noorani Qaida</a></li>\
-<li><a href=\"quran-recitation.html\">Quran Recitation</a></li>\
-<li><a href=\"quran-translation.html\">Quran Translation</a></li>\
-<li><a href=\"quran-memorization.html\">Quran Memorization</a></li>\
-<li><a href=\"advance-tajweed.html\">Advanced Tajweed</a></li>\
+<li><a href=\"noorani-qaida\">Noorani Qaida</a></li>\
+<li><a href=\"quran-recitation\">Quran Recitation</a></li>\
+<li><a href=\"quran-translation\">Quran Translation</a></li>\
+<li><a href=\"quran-memorization\">Quran Memorization</a></li>\
+<li><a href=\"advance-tajweed\">Advanced Tajweed</a></li>\
 </ul></div>\
 <div class=\"f-col\"><h4>Quick Links</h4><ul>\
-<li><a href=\"about.html\">About Us</a></li>\
-<li><a href=\"fee.html\">Monthly Fee</a></li>\
-<li><a href=\"free-books.html\">Free Books</a></li>\
-<li><a href=\"blog.html\">Blog</a></li>\
-<li><a href=\"faqs.html\">FAQs</a></li>\
-<li><a href=\"contact.html\">Contact Us</a></li>\
+<li><a href=\"about\">About Us</a></li>\
+<li><a href=\"fee\">Monthly Fee</a></li>\
+<li><a href=\"free-books\">Free Books</a></li>\
+<li><a href=\"blog\">Blog</a></li>\
+<li><a href=\"faqs\">FAQs</a></li>\
+<li><a href=\"contact\">Contact Us</a></li>\
 </ul></div>\
 <div class=\"f-col f-news\"><h4>Newsletter</h4>\
 <p style=\"font-size:.9rem;color:#90aac0;margin-bottom:16px\">Get free tips, books &amp; class updates in your inbox.</p>\
@@ -114,22 +114,22 @@
 </div></div>\
 <div class=\"f-bottom\">\
 <span>&copy; <span data-year></span> eQuran Journey. All rights reserved.</span>\
-<span style=\"display:flex;gap:18px;flex-wrap:wrap\"><a href=\"privacy-policy.html\">Privacy Policy</a><a href=\"refund-policy.html\">Refund Policy</a><a href=\"faqs.html\">FAQs</a></span>\
+<span style=\"display:flex;gap:18px;flex-wrap:wrap\"><a href=\"privacy-policy\">Privacy Policy</a><a href=\"refund-policy\">Refund Policy</a><a href=\"faqs\">FAQs</a></span>\
 </div></div></footer>\
 <a class=\"wa-float\" href=\"https://wa.me/12069737427\" target=\"_blank\" rel=\"noopener\" aria-label=\"WhatsApp\"><svg width=\"30\" height=\"30\" viewBox=\"0 0 24 24\" fill=\"currentColor\"><path d=\"M.06 24l1.68-6.13A11.86 11.86 0 0 1 .16 11.9C.16 5.33 5.5 0 12.06 0a11.82 11.82 0 0 1 8.42 3.5 11.82 11.82 0 0 1 3.48 8.41c0 6.57-5.34 11.9-11.9 11.9a11.9 11.9 0 0 1-5.7-1.45L.06 24zM6.6 20.13l.36.22a9.86 9.86 0 0 0 5.03 1.38 9.88 9.88 0 0 0 9.87-9.88 9.8 9.8 0 0 0-2.9-7A9.8 9.8 0 0 0 12.06 2a9.88 9.88 0 0 0-9.87 9.87c0 1.84.5 3.63 1.46 5.2l.23.38-1 3.63 3.72-.95zm11.39-5.5c-.15-.25-.55-.4-1.15-.7s-3.5-1.73-4.05-1.93c-.54-.2-.94-.3-1.34.3-.4.6-1.54 1.93-1.89 2.33-.35.4-.7.45-1.29.15s-2.5-.92-4.76-2.94c-1.76-1.57-2.95-3.5-3.3-4.1-.34-.6-.03-.92.27-1.22.27-.27.6-.7.9-1.05.3-.35.4-.6.6-1 .2-.4.1-.75-.05-1.05S9.7 5.1 9.45 4.5c-.24-.58-.49-.5-.67-.51l-.57-.01c-.2 0-.52.07-.79.37s-1.04 1.02-1.04 2.48 1.06 2.88 1.21 3.08c.15.2 2.1 3.2 5.08 4.49.71.3 1.26.49 1.69.62.71.23 1.36.2 1.87.12.57-.08 1.76-.72 2-1.41.25-.7.25-1.29.18-1.42z\"/></svg></a>\
 <div class=\"scroll-prog\"></div>";
 
-  /* set active nav link based on current file */
+  /* set active nav link based on current page (works with clean or .html URLs) */
+  function norm(s) { return (s || '').toLowerCase().replace(/^\//, '').replace(/\.html$/, '').replace(/\/$/, ''); }
   function setActive() {
-    var path = (location.pathname.split('/').pop() || 'index.html').toLowerCase();
-    if (!path) path = 'index.html';
-    var courseFiles = ['courses.html','noorani-qaida.html','quran-recitation.html','quran-translation.html','quran-memorization.html','advance-tajweed.html'];
+    var path = norm(location.pathname.split('/').pop());   /* '' === home */
+    var courseFiles = ['courses', 'noorani-qaida', 'quran-recitation', 'quran-translation', 'quran-memorization', 'advance-tajweed'];
     document.querySelectorAll('.menu > li').forEach(function (li) {
       var a = li.querySelector('a');
       if (!a) return;
-      var href = (a.getAttribute('href') || '').toLowerCase();
+      var href = norm(a.getAttribute('href'));
       li.classList.remove('active');
-      if (href === path) li.classList.add('active');
+      if (href === path || (path === '' && (href === '' || href === 'index'))) li.classList.add('active');
       if (li.querySelector('.dropdown') && courseFiles.indexOf(path) !== -1) li.classList.add('active');
     });
   }
@@ -183,8 +183,8 @@
     if (h) h.innerHTML = headHTML;
     if (f) f.innerHTML = footHTML;
     /* inject a compact lead form before the footer (not on the contact page) */
-    var page = (location.pathname.split('/').pop() || 'index.html').toLowerCase();
-    if (f && page !== 'contact.html' && !document.body.hasAttribute('data-no-leadform')) {
+    var page = (location.pathname.split('/').pop() || 'index').toLowerCase();
+    if (f && page !== 'contact' && !document.body.hasAttribute('data-no-leadform')) {
       /* drop a trailing CTA band so we don't stack two dark blocks */
       var prev = f.previousElementSibling;
       if (prev && prev.querySelector && prev.querySelector('.cta-band')) prev.remove();
@@ -200,8 +200,8 @@
   var canFetch = location.protocol === 'http:' || location.protocol === 'https:';
   if (canFetch) {
     Promise.all([
-      fetch('header.html').then(function (r) { return r.text(); }),
-      fetch('footer.html').then(function (r) { return r.text(); })
+      fetch('header').then(function (r) { return r.text(); }),
+      fetch('footer').then(function (r) { return r.text(); })
     ]).then(function (res) { inject(res[0], res[1]); })
       .catch(function () { inject(window.EQJ_HEADER, window.EQJ_FOOTER); });
   } else {
