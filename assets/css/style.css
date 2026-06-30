@@ -952,3 +952,17 @@ svg:not([width]):not(.wave){width:1.2em;height:1.2em;flex:none}
   /* contact page premium spacing */
   .contact-grid .form-card{padding:24px 20px}
 }
+
+/* =============================================================
+   FIX LAYER 10 — bulletproof rounded course-card corners + border
+   ============================================================= */
+.course{border:1px solid rgba(10,37,64,.14);overflow:hidden}
+.course .c-top{
+  border-radius:var(--radius-lg) var(--radius-lg) 0 0;
+  overflow:hidden;-webkit-transform:translateZ(0);transform:translateZ(0);
+}
+/* round the image itself too — fixes square top corners on mobile browsers */
+.course .c-top .c-img{border-radius:var(--radius-lg) var(--radius-lg) 0 0}
+.course .c-top .c-tag{border-radius:50px}
+/* the gradient-mask hover border can glitch on touch screens — disable there */
+@media(hover:none){.course::after,.card::after{display:none}}
