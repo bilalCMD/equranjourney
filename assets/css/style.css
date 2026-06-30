@@ -893,3 +893,29 @@ svg:not([width]):not(.wave){width:1.2em;height:1.2em;flex:none}
   .f-bottom{flex-direction:column;align-items:flex-start;text-align:left;gap:10px;padding:18px 0}
   .f-bottom span{justify-content:flex-start!important}
 }
+
+/* =============================================================
+   FIX LAYER 8 — course card top corners + WhatsApp label button
+   ============================================================= */
+/* guarantee rounded top corners on the image (fixes square corners on mobile) */
+.course .c-top{border-radius:var(--radius-lg) var(--radius-lg) 0 0;overflow:hidden;isolation:isolate}
+.course{border:1px solid var(--line)}
+
+/* WhatsApp floating button — now a labelled pill with a message */
+.wa-float{
+  width:auto;height:auto;border-radius:50px;display:inline-flex;align-items:center;gap:11px;
+  padding:9px 20px 9px 9px;background:#25D366;color:#fff;text-decoration:none;
+  box-shadow:0 14px 34px rgba(37,211,102,.45);animation:pulse 2.6s infinite;
+}
+.wa-float:hover{transform:translateY(-3px) scale(1.02)}
+.wa-float .wa-ic{width:42px;height:42px;border-radius:50%;background:rgba(255,255,255,.2);display:grid;place-items:center;flex:none}
+.wa-float .wa-ic svg{width:26px;height:26px;color:#fff}
+.wa-float .wa-txt{font-weight:800;font-size:.96rem;white-space:nowrap;line-height:1.15}
+.wa-float .wa-txt small{display:block;font-weight:500;font-size:.72rem;opacity:.9}
+@media(max-width:760px){
+  .wa-float{bottom:16px;right:14px;padding:7px 16px 7px 7px;gap:9px}
+  .wa-float .wa-ic{width:38px;height:38px}
+  .wa-float .wa-ic svg{width:23px;height:23px}
+  .wa-float .wa-txt{font-size:.86rem}
+  .wa-float .wa-txt small{font-size:.66rem}
+}
